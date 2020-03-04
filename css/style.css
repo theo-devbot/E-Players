@@ -267,3 +267,20 @@ footer p{
     text-align: center;
     color: #474747;
 }
+
+/*PAGINA DE CADASTRO*/
+
+.titulo_pagina{
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/cadastro.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
