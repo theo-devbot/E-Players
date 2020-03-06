@@ -14,10 +14,13 @@
 
     <header>
         <div class="container cabecalho">
-            <a href="index.html">
-                <img src="images/Logo.svg" alt="Logo do site E-Players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()"><i class="fas fa-bars"></i></a>
+                <a href="index.html">
+                    <img src="images/Logo.svg" alt="Logo do site E-Players">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="voltar para a página inicial">INÍCIO</a></li>
                     <li><a href="index.html#horarios" title="Ir até a sessão de horários de partidas">HORÁRIOS</a></li>
@@ -138,7 +141,8 @@
                     <div>
                         <h4>Título da Notícia</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ea iusto sit rerum alias
-                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam eveniet
+                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam
+                            eveniet
                             aliquam fugiat est consectetur.</p>
                     </div>
                 </div>
@@ -148,7 +152,8 @@
                     <div>
                         <h4>Título da Notícia</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ea iusto sit rerum alias
-                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam eveniet
+                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam
+                            eveniet
                             aliquam fugiat est consectetur.</p>
                     </div>
                 </div>
@@ -158,7 +163,8 @@
                     <div>
                         <h4>Título da Notícia</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ea iusto sit rerum alias
-                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam eveniet
+                            quaerat, voluptatum nihil possimus quibusdam assumenda laudantium at quam sequi totam
+                            eveniet
                             aliquam fugiat est consectetur.</p>
                     </div>
                 </div>
@@ -301,6 +307,16 @@
         </div>
         <p>© SENAI Eletronic Sports - Todos os direitos reservados</p>
     </footer>
+    <script>
+        function botaoMenu() {
+            var m = document.getElementById("menu");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block"
+            }
+        }
+    </script>
 
 </body>
 
