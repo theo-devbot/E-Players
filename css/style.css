@@ -132,6 +132,7 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .partida img{
@@ -400,4 +401,40 @@ fieldset label{
         width: 50%;
         margin-left: 15px;
     }
-}/*Fim media max 768px*/
+    .ao_vivo{
+       padding: 5.3em 5px;
+       width: 50%;
+       flex-wrap: wrap;
+       justify-content: center;
+}
+    .em_breve{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .em_breve .partida{
+        margin: 0.5em 0;
+    }
+    /*Seção Notícias*/
+    .noticias{
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        padding-top: 0.3em;
+        width: 94%;
+    }
+    .mob_logo_sociais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mob_logo_sociais img{
+        max-width: 180px;
+    }
+    /*Fim media max 768px*/
